@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    background-color: beige;
+}
+h1{ 
+    text-align: center;
+    background-color: aqua;
+}
+
+.test1{
+	width: 100%;
+}
+.test1 img{
+	width: 30%;
+	clip-path:circle(30% at 50% 50%);
+    float: left;
+}
+.test1 p{
+    text-align: justify;
+}
+.test2{
+	width: 100%;
+}
+.test2 img{
+	width: 40%;
+	clip-path:ellipse(50% 40% at 50% 50%);
+    float: left;
+}
+.test2 p{
+    text-align: justify;
+}
+.test3{
+	width: 100%;
+}
+.test3 img{
+	width: 40%;
+	clip-path:inset(30% 20% 15% 40%);
+    float: left;
+}
+.test3 p{
+    text-align: justify;
+}
+.test4{
+	width: 100%;
+}
+.test4 img{
+	width: 40%;
+	clip-path:polygon(50% 0%,100% 50%,50% 100%,0% 50%);
+    float: left;
+}
+.test4 p{
+    text-align: justify;
+}
+.test5{
+	width: 40%;
+}
+.test5 img{
+    
+	filter: brightness(120%);
+    width: 40%;
+
+}
+.test5 p{
+    text-align: justify;
+}
